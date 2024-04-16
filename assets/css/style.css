@@ -11,6 +11,7 @@
 
 :root {
     /* font-size */
+    --fs-14: 14px;
     --fs-16: 16px;
     --fs-28: 28px;
     --fs-sm: ;
@@ -129,6 +130,17 @@
     width: 100%;
 }
 
+.select-1 {
+    border: none;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.select-1 option {
+    background: transparent;
+}
+
 
 
 
@@ -150,4 +162,8 @@
 
 .lh-75 {
     line-height: var(--lh-75);
+}
+
+.fs-14 {
+    font-size: var(--fs-14);
 }
