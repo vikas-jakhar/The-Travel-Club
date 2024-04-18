@@ -34,7 +34,7 @@
     </header>
     <main>
         <section class="section-1 min-vh-100 d-flex align-items-center">
-            <div class="container w-100">
+            <div class="container w-100 mt-5">
                 <div class="d-flex flex-column align-items-center">
                     <h2 class="text-1 fs-64 lh-75 text-capitalize">tokenized and decentralized</h2>
                     <h3 class="position-relative bottom-blue px-3">
@@ -42,23 +42,585 @@
                     </h3>
                     <div class="box-1 w-100 mt-5">
                         <div class="d-flex gap-4 justify-content-center align-items-center">
-                            <p class="text-2 h-2 position-relative">Stays</p>
-                            <p class="text-2 h-2 position-relative">Flights</p>
-                            <p class="text-2 h-2 position-relative">Cars</p>
-                            <p class="text-2 h-2 position-relative">packages</p>
-                            <p class="text-2 h-2 position-relative">things to do</p>
-                            <p class="text-2 h-2 position-relative">Cruises</p>
+                            <p class="text-2 h-2 h-21 position-relative one">Stays</p>
+                            <p class="text-2 h-2 position-relative two">Flights</p>
+                            <p class="text-2 h-2 position-relative three">Cars</p>
+                            <p class="text-2 h-2 position-relative four">packages</p>
+                            <p class="text-2 h-2 position-relative five">things to do</p>
+                            <p class="text-2 h-2 position-relative six">Cruises</p>
                         </div>
-                        <div class="d-flex justify-content-end align-items-center">
-                            <select name="list1" class="select-1 text-1 fs-14">
-                                <option value="1">1 room, 2 travelers</option>
-                                <option value="2">1 room, 5 travelers</option>
-                                <option value="3">2 room, 8 travelers</option>
-                                <option value="4">2 room, 10 travelers</option>
-                            </select>
+                        <div class="Stays flex-column align-items-center">
+                            <div class="d-flex justify-content-end align-items-center w-100">
+                                <select name="list1" class="select-1 text-1 fs-14">
+                                    <option value="1">1 room, 2 travelers</option>
+                                    <option value="2">1 room, 5 travelers</option>
+                                    <option value="3">2 room, 8 travelers</option>
+                                    <option value="4">2 room, 10 travelers</option>
+                                </select>
+                            </div>
+                            <div class="row w-100">
+                                <div class="col-lg-6 col-12 mt-24">
+                                    <div class=" box-2 d-flex gap-2">
+                                        <span class="d-flex align-items-center">
+                                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 1.58984C9.81276 1.59242 7.71584 2.46245 6.16923 4.00906C4.62261 5.55568 3.75259 7.6526 3.75001 9.83984C3.74739 11.6273 4.33124 13.3662 5.41201 14.7898C5.41201 14.7898 5.63701 15.0861 5.67376 15.1288L12 22.5898L18.3293 15.1251C18.3623 15.0853 18.588 14.7898 18.588 14.7898L18.5888 14.7876C19.669 13.3646 20.2526 11.6264 20.25 9.83984C20.2474 7.6526 19.3774 5.55568 17.8308 4.00906C16.2842 2.46245 14.1873 1.59242 12 1.58984ZM12 12.8398C11.4067 12.8398 10.8266 12.6639 10.3333 12.3343C9.83995 12.0046 9.45543 11.5361 9.22837 10.9879C9.00131 10.4397 8.9419 9.83652 9.05765 9.25457C9.17341 8.67263 9.45913 8.13808 9.87869 7.71852C10.2982 7.29897 10.8328 7.01324 11.4147 6.89749C11.9967 6.78173 12.5999 6.84114 13.1481 7.0682C13.6962 7.29527 14.1648 7.67979 14.4944 8.17313C14.8241 8.66648 15 9.2465 15 9.83984C14.999 10.6352 14.6826 11.3977 14.1202 11.9601C13.5578 12.5225 12.7954 12.8389 12 12.8398Z"
+                                                    fill="#FAFAFA" />
+                                            </svg>
+                                        </span>
+                                        <input type="text" placeholder="Going to" class="input-2 text-3 w-100">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6 mt-24">
+                                    <div class="box-2 d-flex justify-content-between">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <span class="calendar">
+                                                <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M6.41667 9.45H4.27778V11.55H6.41667V9.45ZM10.6944 9.45H8.55556V11.55H10.6944V9.45ZM14.9722 9.45H12.8333V11.55H14.9722V9.45ZM17.1111 2.1H16.0417V0H13.9028V2.1H5.34722V0H3.20833V2.1H2.13889C1.57162 2.1 1.02759 2.32125 0.626466 2.71508C0.225346 3.1089 0 3.64305 0 4.2V18.9C0 19.457 0.225346 19.9911 0.626466 20.3849C1.02759 20.7787 1.57162 21 2.13889 21H17.1111C17.6784 21 18.2224 20.7787 18.6235 20.3849C19.0247 19.9911 19.25 19.457 19.25 18.9V4.2C19.25 3.64305 19.0247 3.1089 18.6235 2.71508C18.2224 2.32125 17.6784 2.1 17.1111 2.1ZM17.1111 18.9H2.13889V7.35H17.1111V18.9Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </span>
+                                            <div>
+                                                <p class="text-3 m-0 fs-10 lh-normal">Check-in</p>
+                                                <p class="text-3 m-0 lh-normal">Jun 29</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <span class="d-flex cursor-pointer">
+                                                <svg width="15" height="12" viewBox="0 0 15 12" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M1.12524 11.4576H13.8752C14.0043 11.4572 14.1309 11.4216 14.2412 11.3546C14.3516 11.2877 14.4416 11.1919 14.5015 11.0776C14.5615 10.9632 14.5892 10.8347 14.5815 10.7059C14.5739 10.577 14.5313 10.4527 14.4582 10.3462L8.0832 1.13791C7.81899 0.756115 7.18291 0.756115 6.91799 1.13791L0.542994 10.3462C0.469203 10.4524 0.42593 10.5769 0.417877 10.7059C0.409824 10.835 0.437299 10.9638 0.497316 11.0784C0.557333 11.1929 0.647597 11.2889 0.758302 11.3557C0.869006 11.4226 0.995916 11.4578 1.12524 11.4576Z"
+                                                        fill="#F8F8F8" />
+                                                </svg>
+                                            </span>
+                                            <span class="d-flex cursor-pointer">
+                                                <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M14.8748 3.54239H2.12475C1.99567 3.54279 1.86913 3.57839 1.75878 3.64536C1.64842 3.71233 1.55841 3.80813 1.49845 3.92244C1.43849 4.03676 1.41084 4.16527 1.41847 4.29413C1.42611 4.42299 1.46875 4.54733 1.5418 4.65376L7.9168 13.8621C8.18101 14.2439 8.81709 14.2439 9.08201 13.8621L15.457 4.65376C15.5308 4.54755 15.5741 4.42315 15.5821 4.29407C15.5902 4.165 15.5627 4.03618 15.5027 3.92162C15.4427 3.80706 15.3524 3.71114 15.2417 3.64428C15.131 3.57742 15.0041 3.54218 14.8748 3.54239ZM8.49976 12.2145L3.47626 4.95905H13.5233L8.49976 12.2145Z"
+                                                        fill="#F8F8F8" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6 mt-24">
+                                    <div class="box-2 d-flex justify-content-between">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <span class="calendar">
+                                                <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M6.41667 9.45H4.27778V11.55H6.41667V9.45ZM10.6944 9.45H8.55556V11.55H10.6944V9.45ZM14.9722 9.45H12.8333V11.55H14.9722V9.45ZM17.1111 2.1H16.0417V0H13.9028V2.1H5.34722V0H3.20833V2.1H2.13889C1.57162 2.1 1.02759 2.32125 0.626466 2.71508C0.225346 3.1089 0 3.64305 0 4.2V18.9C0 19.457 0.225346 19.9911 0.626466 20.3849C1.02759 20.7787 1.57162 21 2.13889 21H17.1111C17.6784 21 18.2224 20.7787 18.6235 20.3849C19.0247 19.9911 19.25 19.457 19.25 18.9V4.2C19.25 3.64305 19.0247 3.1089 18.6235 2.71508C18.2224 2.32125 17.6784 2.1 17.1111 2.1ZM17.1111 18.9H2.13889V7.35H17.1111V18.9Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </span>
+                                            <div>
+                                                <p class="text-3 m-0 fs-10 lh-normal">Check-in</p>
+                                                <p class="text-3 m-0 lh-normal">Jun 29</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <span class="d-flex cursor-pointer">
+                                                <svg width="15" height="12" viewBox="0 0 15 12" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M1.12524 11.4576H13.8752C14.0043 11.4572 14.1309 11.4216 14.2412 11.3546C14.3516 11.2877 14.4416 11.1919 14.5015 11.0776C14.5615 10.9632 14.5892 10.8347 14.5815 10.7059C14.5739 10.577 14.5313 10.4527 14.4582 10.3462L8.0832 1.13791C7.81899 0.756115 7.18291 0.756115 6.91799 1.13791L0.542994 10.3462C0.469203 10.4524 0.42593 10.5769 0.417877 10.7059C0.409824 10.835 0.437299 10.9638 0.497316 11.0784C0.557333 11.1929 0.647597 11.2889 0.758302 11.3557C0.869006 11.4226 0.995916 11.4578 1.12524 11.4576Z"
+                                                        fill="#F8F8F8" />
+                                                </svg>
+                                            </span>
+                                            <span class="d-flex cursor-pointer">
+                                                <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M14.8748 3.54239H2.12475C1.99567 3.54279 1.86913 3.57839 1.75878 3.64536C1.64842 3.71233 1.55841 3.80813 1.49845 3.92244C1.43849 4.03676 1.41084 4.16527 1.41847 4.29413C1.42611 4.42299 1.46875 4.54733 1.5418 4.65376L7.9168 13.8621C8.18101 14.2439 8.81709 14.2439 9.08201 13.8621L15.457 4.65376C15.5308 4.54755 15.5741 4.42315 15.5821 4.29407C15.5902 4.165 15.5627 4.03618 15.5027 3.92162C15.4427 3.80706 15.3524 3.71114 15.2417 3.64428C15.131 3.57742 15.0041 3.54218 14.8748 3.54239ZM8.49976 12.2145L3.47626 4.95905H13.5233L8.49976 12.2145Z"
+                                                        fill="#F8F8F8" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-start w-100 pl-12 mt-24">
+                                <div class="flight d-flex align-items-center gap-2 cursor-pointer">
+                                    <span class="check-box">
+                                        <span class="justify-content-center align-items-center h-100 check-svg">
+                                            <svg width="10" height="7" viewBox="0 0 10 7" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 3.5L3.64706 6L9 1" stroke="white" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                    <p class="text-3 m-0 text-capitalize">Add a flight</p>
+                                </div>
+                                <div class="flight d-flex align-items-center gap-2 mx-4 cursor-pointer">
+                                    <span class="check-box">
+                                        <span class="justify-content-center align-items-center h-100 check-svg">
+                                            <svg width="10" height="7" viewBox="0 0 10 7" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 3.5L3.64706 6L9 1" stroke="white" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                    <p class="text-3 m-0 text-capitalize">Add a Car</p>
+                                </div>
+                            </div>
+                            <button class="btn-s1 text-1">Search</button>
+                        </div>
+                        <div class="Flights12 flex-column align-items-center">
+                            <div class="w-100 d-flex justify-content-between flex-wrap gap-3">
+                                <div class="d-flex gap-2">
+                                    <button class="text-3 btn-f12">Roundtrip</button>
+                                    <button class="text-3 btn-f12">One-Way</button>
+                                    <button class="text-3 btn-f12">Multi-City</button>
+                                </div>
+                                <button class="text-3 btn-f12">Economy
+                                    <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 0.5L5 4.5L9 0.5" stroke="white" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="row w-100">
+                                <div class="col-lg-3  mt-24">
+                                    <div class=" box-2 d-flex gap-2">
+                                        <span class="d-flex align-items-center">
+                                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 1.58984C9.81276 1.59242 7.71584 2.46245 6.16923 4.00906C4.62261 5.55568 3.75259 7.6526 3.75001 9.83984C3.74739 11.6273 4.33124 13.3662 5.41201 14.7898C5.41201 14.7898 5.63701 15.0861 5.67376 15.1288L12 22.5898L18.3293 15.1251C18.3623 15.0853 18.588 14.7898 18.588 14.7898L18.5888 14.7876C19.669 13.3646 20.2526 11.6264 20.25 9.83984C20.2474 7.6526 19.3774 5.55568 17.8308 4.00906C16.2842 2.46245 14.1873 1.59242 12 1.58984ZM12 12.8398C11.4067 12.8398 10.8266 12.6639 10.3333 12.3343C9.83995 12.0046 9.45543 11.5361 9.22837 10.9879C9.00131 10.4397 8.9419 9.83652 9.05765 9.25457C9.17341 8.67263 9.45913 8.13808 9.87869 7.71852C10.2982 7.29897 10.8328 7.01324 11.4147 6.89749C11.9967 6.78173 12.5999 6.84114 13.1481 7.0682C13.6962 7.29527 14.1648 7.67979 14.4944 8.17313C14.8241 8.66648 15 9.2465 15 9.83984C14.999 10.6352 14.6826 11.3977 14.1202 11.9601C13.5578 12.5225 12.7954 12.8389 12 12.8398Z"
+                                                    fill="#FAFAFA" />
+                                            </svg>
+                                        </span>
+                                        <input type="text" placeholder="Leaving From" class="input-2 text-3 w-100">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3  mt-24">
+                                    <div class=" box-2 d-flex gap-2">
+                                        <span class="d-flex align-items-center">
+                                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 1.58984C9.81276 1.59242 7.71584 2.46245 6.16923 4.00906C4.62261 5.55568 3.75259 7.6526 3.75001 9.83984C3.74739 11.6273 4.33124 13.3662 5.41201 14.7898C5.41201 14.7898 5.63701 15.0861 5.67376 15.1288L12 22.5898L18.3293 15.1251C18.3623 15.0853 18.588 14.7898 18.588 14.7898L18.5888 14.7876C19.669 13.3646 20.2526 11.6264 20.25 9.83984C20.2474 7.6526 19.3774 5.55568 17.8308 4.00906C16.2842 2.46245 14.1873 1.59242 12 1.58984ZM12 12.8398C11.4067 12.8398 10.8266 12.6639 10.3333 12.3343C9.83995 12.0046 9.45543 11.5361 9.22837 10.9879C9.00131 10.4397 8.9419 9.83652 9.05765 9.25457C9.17341 8.67263 9.45913 8.13808 9.87869 7.71852C10.2982 7.29897 10.8328 7.01324 11.4147 6.89749C11.9967 6.78173 12.5999 6.84114 13.1481 7.0682C13.6962 7.29527 14.1648 7.67979 14.4944 8.17313C14.8241 8.66648 15 9.2465 15 9.83984C14.999 10.6352 14.6826 11.3977 14.1202 11.9601C13.5578 12.5225 12.7954 12.8389 12 12.8398Z"
+                                                    fill="#FAFAFA" />
+                                            </svg>
+                                        </span>
+                                        <input type="text" placeholder="Going to" class="input-2 text-3 w-100">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6 mt-24">
+                                    <div class="box-2 d-flex justify-content-between">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <span class="calendar">
+                                                <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M6.41667 9.45H4.27778V11.55H6.41667V9.45ZM10.6944 9.45H8.55556V11.55H10.6944V9.45ZM14.9722 9.45H12.8333V11.55H14.9722V9.45ZM17.1111 2.1H16.0417V0H13.9028V2.1H5.34722V0H3.20833V2.1H2.13889C1.57162 2.1 1.02759 2.32125 0.626466 2.71508C0.225346 3.1089 0 3.64305 0 4.2V18.9C0 19.457 0.225346 19.9911 0.626466 20.3849C1.02759 20.7787 1.57162 21 2.13889 21H17.1111C17.6784 21 18.2224 20.7787 18.6235 20.3849C19.0247 19.9911 19.25 19.457 19.25 18.9V4.2C19.25 3.64305 19.0247 3.1089 18.6235 2.71508C18.2224 2.32125 17.6784 2.1 17.1111 2.1ZM17.1111 18.9H2.13889V7.35H17.1111V18.9Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </span>
+                                            <div>
+                                                <p class="text-3 m-0 fs-10 lh-normal">Check-in</p>
+                                                <p class="text-3 m-0 lh-normal">Jun 29</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <span class="d-flex cursor-pointer">
+                                                <svg width="15" height="12" viewBox="0 0 15 12" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M1.12524 11.4576H13.8752C14.0043 11.4572 14.1309 11.4216 14.2412 11.3546C14.3516 11.2877 14.4416 11.1919 14.5015 11.0776C14.5615 10.9632 14.5892 10.8347 14.5815 10.7059C14.5739 10.577 14.5313 10.4527 14.4582 10.3462L8.0832 1.13791C7.81899 0.756115 7.18291 0.756115 6.91799 1.13791L0.542994 10.3462C0.469203 10.4524 0.42593 10.5769 0.417877 10.7059C0.409824 10.835 0.437299 10.9638 0.497316 11.0784C0.557333 11.1929 0.647597 11.2889 0.758302 11.3557C0.869006 11.4226 0.995916 11.4578 1.12524 11.4576Z"
+                                                        fill="#F8F8F8" />
+                                                </svg>
+                                            </span>
+                                            <span class="d-flex cursor-pointer">
+                                                <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M14.8748 3.54239H2.12475C1.99567 3.54279 1.86913 3.57839 1.75878 3.64536C1.64842 3.71233 1.55841 3.80813 1.49845 3.92244C1.43849 4.03676 1.41084 4.16527 1.41847 4.29413C1.42611 4.42299 1.46875 4.54733 1.5418 4.65376L7.9168 13.8621C8.18101 14.2439 8.81709 14.2439 9.08201 13.8621L15.457 4.65376C15.5308 4.54755 15.5741 4.42315 15.5821 4.29407C15.5902 4.165 15.5627 4.03618 15.5027 3.92162C15.4427 3.80706 15.3524 3.71114 15.2417 3.64428C15.131 3.57742 15.0041 3.54218 14.8748 3.54239ZM8.49976 12.2145L3.47626 4.95905H13.5233L8.49976 12.2145Z"
+                                                        fill="#F8F8F8" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6 mt-24">
+                                    <div class="box-2 d-flex justify-content-between">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <span class="calendar">
+                                                <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M6.41667 9.45H4.27778V11.55H6.41667V9.45ZM10.6944 9.45H8.55556V11.55H10.6944V9.45ZM14.9722 9.45H12.8333V11.55H14.9722V9.45ZM17.1111 2.1H16.0417V0H13.9028V2.1H5.34722V0H3.20833V2.1H2.13889C1.57162 2.1 1.02759 2.32125 0.626466 2.71508C0.225346 3.1089 0 3.64305 0 4.2V18.9C0 19.457 0.225346 19.9911 0.626466 20.3849C1.02759 20.7787 1.57162 21 2.13889 21H17.1111C17.6784 21 18.2224 20.7787 18.6235 20.3849C19.0247 19.9911 19.25 19.457 19.25 18.9V4.2C19.25 3.64305 19.0247 3.1089 18.6235 2.71508C18.2224 2.32125 17.6784 2.1 17.1111 2.1ZM17.1111 18.9H2.13889V7.35H17.1111V18.9Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </span>
+                                            <div>
+                                                <p class="text-3 m-0 fs-10 lh-normal">Check-in</p>
+                                                <p class="text-3 m-0 lh-normal">Jun 29</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <span class="d-flex cursor-pointer">
+                                                <svg width="15" height="12" viewBox="0 0 15 12" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M1.12524 11.4576H13.8752C14.0043 11.4572 14.1309 11.4216 14.2412 11.3546C14.3516 11.2877 14.4416 11.1919 14.5015 11.0776C14.5615 10.9632 14.5892 10.8347 14.5815 10.7059C14.5739 10.577 14.5313 10.4527 14.4582 10.3462L8.0832 1.13791C7.81899 0.756115 7.18291 0.756115 6.91799 1.13791L0.542994 10.3462C0.469203 10.4524 0.42593 10.5769 0.417877 10.7059C0.409824 10.835 0.437299 10.9638 0.497316 11.0784C0.557333 11.1929 0.647597 11.2889 0.758302 11.3557C0.869006 11.4226 0.995916 11.4578 1.12524 11.4576Z"
+                                                        fill="#F8F8F8" />
+                                                </svg>
+                                            </span>
+                                            <span class="d-flex cursor-pointer">
+                                                <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M14.8748 3.54239H2.12475C1.99567 3.54279 1.86913 3.57839 1.75878 3.64536C1.64842 3.71233 1.55841 3.80813 1.49845 3.92244C1.43849 4.03676 1.41084 4.16527 1.41847 4.29413C1.42611 4.42299 1.46875 4.54733 1.5418 4.65376L7.9168 13.8621C8.18101 14.2439 8.81709 14.2439 9.08201 13.8621L15.457 4.65376C15.5308 4.54755 15.5741 4.42315 15.5821 4.29407C15.5902 4.165 15.5627 4.03618 15.5027 3.92162C15.4427 3.80706 15.3524 3.71114 15.2417 3.64428C15.131 3.57742 15.0041 3.54218 14.8748 3.54239ZM8.49976 12.2145L3.47626 4.95905H13.5233L8.49976 12.2145Z"
+                                                        fill="#F8F8F8" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn-s1 text-1 mt-4">Search</button>
+                        </div>
+                        <div class="cars12 flex-column align-items-center">
+                            <div class="row w-100">
+                                <div class="col-lg-6 mt-24">
+                                    <div class=" box-2 d-flex gap-2">
+                                        <span class="d-flex align-items-center">
+                                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 1.58984C9.81276 1.59242 7.71584 2.46245 6.16923 4.00906C4.62261 5.55568 3.75259 7.6526 3.75001 9.83984C3.74739 11.6273 4.33124 13.3662 5.41201 14.7898C5.41201 14.7898 5.63701 15.0861 5.67376 15.1288L12 22.5898L18.3293 15.1251C18.3623 15.0853 18.588 14.7898 18.588 14.7898L18.5888 14.7876C19.669 13.3646 20.2526 11.6264 20.25 9.83984C20.2474 7.6526 19.3774 5.55568 17.8308 4.00906C16.2842 2.46245 14.1873 1.59242 12 1.58984ZM12 12.8398C11.4067 12.8398 10.8266 12.6639 10.3333 12.3343C9.83995 12.0046 9.45543 11.5361 9.22837 10.9879C9.00131 10.4397 8.9419 9.83652 9.05765 9.25457C9.17341 8.67263 9.45913 8.13808 9.87869 7.71852C10.2982 7.29897 10.8328 7.01324 11.4147 6.89749C11.9967 6.78173 12.5999 6.84114 13.1481 7.0682C13.6962 7.29527 14.1648 7.67979 14.4944 8.17313C14.8241 8.66648 15 9.2465 15 9.83984C14.999 10.6352 14.6826 11.3977 14.1202 11.9601C13.5578 12.5225 12.7954 12.8389 12 12.8398Z"
+                                                    fill="#FAFAFA" />
+                                            </svg>
+                                        </span>
+                                        <input type="text" placeholder="Pick-Up" class="input-2 text-3 w-100">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6  mt-24">
+                                    <div class=" box-2 d-flex gap-2">
+                                        <span class="d-flex align-items-center">
+                                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 1.58984C9.81276 1.59242 7.71584 2.46245 6.16923 4.00906C4.62261 5.55568 3.75259 7.6526 3.75001 9.83984C3.74739 11.6273 4.33124 13.3662 5.41201 14.7898C5.41201 14.7898 5.63701 15.0861 5.67376 15.1288L12 22.5898L18.3293 15.1251C18.3623 15.0853 18.588 14.7898 18.588 14.7898L18.5888 14.7876C19.669 13.3646 20.2526 11.6264 20.25 9.83984C20.2474 7.6526 19.3774 5.55568 17.8308 4.00906C16.2842 2.46245 14.1873 1.59242 12 1.58984ZM12 12.8398C11.4067 12.8398 10.8266 12.6639 10.3333 12.3343C9.83995 12.0046 9.45543 11.5361 9.22837 10.9879C9.00131 10.4397 8.9419 9.83652 9.05765 9.25457C9.17341 8.67263 9.45913 8.13808 9.87869 7.71852C10.2982 7.29897 10.8328 7.01324 11.4147 6.89749C11.9967 6.78173 12.5999 6.84114 13.1481 7.0682C13.6962 7.29527 14.1648 7.67979 14.4944 8.17313C14.8241 8.66648 15 9.2465 15 9.83984C14.999 10.6352 14.6826 11.3977 14.1202 11.9601C13.5578 12.5225 12.7954 12.8389 12 12.8398Z"
+                                                    fill="#FAFAFA" />
+                                            </svg>
+                                        </span>
+                                        <input type="text" placeholder="Same As Pick-Up" class="input-2 text-3 w-100">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-6 mt-24">
+                                    <div class="box-2 d-flex justify-content-between">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <span class="calendar">
+                                                <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M6.41667 9.45H4.27778V11.55H6.41667V9.45ZM10.6944 9.45H8.55556V11.55H10.6944V9.45ZM14.9722 9.45H12.8333V11.55H14.9722V9.45ZM17.1111 2.1H16.0417V0H13.9028V2.1H5.34722V0H3.20833V2.1H2.13889C1.57162 2.1 1.02759 2.32125 0.626466 2.71508C0.225346 3.1089 0 3.64305 0 4.2V18.9C0 19.457 0.225346 19.9911 0.626466 20.3849C1.02759 20.7787 1.57162 21 2.13889 21H17.1111C17.6784 21 18.2224 20.7787 18.6235 20.3849C19.0247 19.9911 19.25 19.457 19.25 18.9V4.2C19.25 3.64305 19.0247 3.1089 18.6235 2.71508C18.2224 2.32125 17.6784 2.1 17.1111 2.1ZM17.1111 18.9H2.13889V7.35H17.1111V18.9Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </span>
+                                            <div class="d-flex flex-column">
+                                                <p class="text-3 m-0 fs-10 lh-normal">Dates</p>
+                                                <p class="text-3 m-0 lh-normal">Jun 29 - 30 June</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6 mt-24">
+                                    <div class="box-2 d-flex justify-content-between">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <div class="d-flex flex-column">
+                                                <p class="text-3 m-0 fs-10 lh-normal">Pick-Up Time</p>
+                                                <p class="text-3 m-0 lh-normal">10:30 AM</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6 mt-24">
+                                    <div class="box-2 d-flex justify-content-between">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <div class="d-flex flex-column">
+                                                <p class="text-3 m-0 fs-10 lh-normal">Drop-Off Time</p>
+                                                <p class="text-3 m-0 lh-normal">10:00 AM</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="w-100 d-flex justify-content-between flex-wrap gap-3">
+                                <div class="d-flex gap-2 w-50 mt-3">
+                                    <button class="text-3 btn-f12 w-100">Show AARP Rates</button>
+                                    <button class="text-3 btn-f12 w-100">Discount Code
+                                        <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                            xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M1 0.5L5 4.5L9 0.5" stroke="white" />
+                                        </svg>
+                                    </button>
+                                </div>
+                            </div>
+                            <button class="btn-s1 text-1 mt-4">Search</button>
+                        </div>
+                        <div class="packages flex-column align-items-center">
+                            <div class="w-100 d-flex justify-content-end flex-wrap">
+                                <button class="text-3 btn-f12">Economy
+                                    <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M1 0.5L5 4.5L9 0.5" stroke="white" />
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="row w-100">
+                                <div class="col-lg-3  mt-24">
+                                    <div class=" box-2 d-flex gap-2">
+                                        <span class="d-flex align-items-center">
+                                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 1.58984C9.81276 1.59242 7.71584 2.46245 6.16923 4.00906C4.62261 5.55568 3.75259 7.6526 3.75001 9.83984C3.74739 11.6273 4.33124 13.3662 5.41201 14.7898C5.41201 14.7898 5.63701 15.0861 5.67376 15.1288L12 22.5898L18.3293 15.1251C18.3623 15.0853 18.588 14.7898 18.588 14.7898L18.5888 14.7876C19.669 13.3646 20.2526 11.6264 20.25 9.83984C20.2474 7.6526 19.3774 5.55568 17.8308 4.00906C16.2842 2.46245 14.1873 1.59242 12 1.58984ZM12 12.8398C11.4067 12.8398 10.8266 12.6639 10.3333 12.3343C9.83995 12.0046 9.45543 11.5361 9.22837 10.9879C9.00131 10.4397 8.9419 9.83652 9.05765 9.25457C9.17341 8.67263 9.45913 8.13808 9.87869 7.71852C10.2982 7.29897 10.8328 7.01324 11.4147 6.89749C11.9967 6.78173 12.5999 6.84114 13.1481 7.0682C13.6962 7.29527 14.1648 7.67979 14.4944 8.17313C14.8241 8.66648 15 9.2465 15 9.83984C14.999 10.6352 14.6826 11.3977 14.1202 11.9601C13.5578 12.5225 12.7954 12.8389 12 12.8398Z"
+                                                    fill="#FAFAFA" />
+                                            </svg>
+                                        </span>
+                                        <input type="text" placeholder="Leaving From" class="input-2 text-3 w-100">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3  mt-24">
+                                    <div class=" box-2 d-flex gap-2">
+                                        <span class="d-flex align-items-center">
+                                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 1.58984C9.81276 1.59242 7.71584 2.46245 6.16923 4.00906C4.62261 5.55568 3.75259 7.6526 3.75001 9.83984C3.74739 11.6273 4.33124 13.3662 5.41201 14.7898C5.41201 14.7898 5.63701 15.0861 5.67376 15.1288L12 22.5898L18.3293 15.1251C18.3623 15.0853 18.588 14.7898 18.588 14.7898L18.5888 14.7876C19.669 13.3646 20.2526 11.6264 20.25 9.83984C20.2474 7.6526 19.3774 5.55568 17.8308 4.00906C16.2842 2.46245 14.1873 1.59242 12 1.58984ZM12 12.8398C11.4067 12.8398 10.8266 12.6639 10.3333 12.3343C9.83995 12.0046 9.45543 11.5361 9.22837 10.9879C9.00131 10.4397 8.9419 9.83652 9.05765 9.25457C9.17341 8.67263 9.45913 8.13808 9.87869 7.71852C10.2982 7.29897 10.8328 7.01324 11.4147 6.89749C11.9967 6.78173 12.5999 6.84114 13.1481 7.0682C13.6962 7.29527 14.1648 7.67979 14.4944 8.17313C14.8241 8.66648 15 9.2465 15 9.83984C14.999 10.6352 14.6826 11.3977 14.1202 11.9601C13.5578 12.5225 12.7954 12.8389 12 12.8398Z"
+                                                    fill="#FAFAFA" />
+                                            </svg>
+                                        </span>
+                                        <input type="text" placeholder="Going to" class="input-2 text-3 w-100">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6 mt-24">
+                                    <div class="box-2 d-flex justify-content-between">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <span class="calendar">
+                                                <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M6.41667 9.45H4.27778V11.55H6.41667V9.45ZM10.6944 9.45H8.55556V11.55H10.6944V9.45ZM14.9722 9.45H12.8333V11.55H14.9722V9.45ZM17.1111 2.1H16.0417V0H13.9028V2.1H5.34722V0H3.20833V2.1H2.13889C1.57162 2.1 1.02759 2.32125 0.626466 2.71508C0.225346 3.1089 0 3.64305 0 4.2V18.9C0 19.457 0.225346 19.9911 0.626466 20.3849C1.02759 20.7787 1.57162 21 2.13889 21H17.1111C17.6784 21 18.2224 20.7787 18.6235 20.3849C19.0247 19.9911 19.25 19.457 19.25 18.9V4.2C19.25 3.64305 19.0247 3.1089 18.6235 2.71508C18.2224 2.32125 17.6784 2.1 17.1111 2.1ZM17.1111 18.9H2.13889V7.35H17.1111V18.9Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </span>
+                                            <div>
+                                                <p class="text-3 m-0 fs-10 lh-normal">Check-in</p>
+                                                <p class="text-3 m-0 lh-normal">Jun 29</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <span class="d-flex cursor-pointer">
+                                                <svg width="15" height="12" viewBox="0 0 15 12" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M1.12524 11.4576H13.8752C14.0043 11.4572 14.1309 11.4216 14.2412 11.3546C14.3516 11.2877 14.4416 11.1919 14.5015 11.0776C14.5615 10.9632 14.5892 10.8347 14.5815 10.7059C14.5739 10.577 14.5313 10.4527 14.4582 10.3462L8.0832 1.13791C7.81899 0.756115 7.18291 0.756115 6.91799 1.13791L0.542994 10.3462C0.469203 10.4524 0.42593 10.5769 0.417877 10.7059C0.409824 10.835 0.437299 10.9638 0.497316 11.0784C0.557333 11.1929 0.647597 11.2889 0.758302 11.3557C0.869006 11.4226 0.995916 11.4578 1.12524 11.4576Z"
+                                                        fill="#F8F8F8" />
+                                                </svg>
+                                            </span>
+                                            <span class="d-flex cursor-pointer">
+                                                <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M14.8748 3.54239H2.12475C1.99567 3.54279 1.86913 3.57839 1.75878 3.64536C1.64842 3.71233 1.55841 3.80813 1.49845 3.92244C1.43849 4.03676 1.41084 4.16527 1.41847 4.29413C1.42611 4.42299 1.46875 4.54733 1.5418 4.65376L7.9168 13.8621C8.18101 14.2439 8.81709 14.2439 9.08201 13.8621L15.457 4.65376C15.5308 4.54755 15.5741 4.42315 15.5821 4.29407C15.5902 4.165 15.5627 4.03618 15.5027 3.92162C15.4427 3.80706 15.3524 3.71114 15.2417 3.64428C15.131 3.57742 15.0041 3.54218 14.8748 3.54239ZM8.49976 12.2145L3.47626 4.95905H13.5233L8.49976 12.2145Z"
+                                                        fill="#F8F8F8" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6 mt-24">
+                                    <div class="box-2 d-flex justify-content-between">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <span class="calendar">
+                                                <img src="./assets/svg/people.svg" alt="svg">
+                                            </span>
+                                            <div>
+                                                <p class="text-3 m-0 fs-10 lh-normal">travelers</p>
+                                                <p class="text-3 m-0 lh-normal">2 travelers</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex justify-content-start w-100 pl-12 mt-24">
+                                <div class="flight d-flex align-items-center gap-2 cursor-pointer">
+                                    <span class="check-box">
+                                        <span class="justify-content-center align-items-center h-100 check-svg">
+                                            <svg width="10" height="7" viewBox="0 0 10 7" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 3.5L3.64706 6L9 1" stroke="white" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                    <p class="text-3 m-0 text-capitalize">Add a flight</p>
+                                </div>
+                                <div class="flight d-flex align-items-center gap-2 mx-4 cursor-pointer">
+                                    <span class="check-box">
+                                        <span class="justify-content-center align-items-center h-100 check-svg">
+                                            <svg width="10" height="7" viewBox="0 0 10 7" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 3.5L3.64706 6L9 1" stroke="white" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                    <p class="text-3 m-0 text-capitalize">Add a Car</p>
+                                </div>
+                                <div class="flight d-flex align-items-center gap-2 mx-4 cursor-pointer">
+                                    <span class="check-box">
+                                        <span class="justify-content-center align-items-center h-100 check-svg">
+                                            <svg width="10" height="7" viewBox="0 0 10 7" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M1 3.5L3.64706 6L9 1" stroke="white" stroke-width="2"
+                                                    stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </span>
+                                    </span>
+                                    <p class="text-3 m-0 text-capitalize">Stay Add</p>
+                                </div>
+                            </div>
+                            <button class="btn-s1 text-1 mt-4">Search</button>
+                        </div>
+                        <div class="things flex-column align-items-center">
+                            <div class="row w-100">
+                                <div class="col-lg-6 mt-24">
+                                    <div class=" box-2 d-flex gap-2">
+                                        <span class="d-flex align-items-center">
+                                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 1.58984C9.81276 1.59242 7.71584 2.46245 6.16923 4.00906C4.62261 5.55568 3.75259 7.6526 3.75001 9.83984C3.74739 11.6273 4.33124 13.3662 5.41201 14.7898C5.41201 14.7898 5.63701 15.0861 5.67376 15.1288L12 22.5898L18.3293 15.1251C18.3623 15.0853 18.588 14.7898 18.588 14.7898L18.5888 14.7876C19.669 13.3646 20.2526 11.6264 20.25 9.83984C20.2474 7.6526 19.3774 5.55568 17.8308 4.00906C16.2842 2.46245 14.1873 1.59242 12 1.58984ZM12 12.8398C11.4067 12.8398 10.8266 12.6639 10.3333 12.3343C9.83995 12.0046 9.45543 11.5361 9.22837 10.9879C9.00131 10.4397 8.9419 9.83652 9.05765 9.25457C9.17341 8.67263 9.45913 8.13808 9.87869 7.71852C10.2982 7.29897 10.8328 7.01324 11.4147 6.89749C11.9967 6.78173 12.5999 6.84114 13.1481 7.0682C13.6962 7.29527 14.1648 7.67979 14.4944 8.17313C14.8241 8.66648 15 9.2465 15 9.83984C14.999 10.6352 14.6826 11.3977 14.1202 11.9601C13.5578 12.5225 12.7954 12.8389 12 12.8398Z"
+                                                    fill="#FAFAFA" />
+                                            </svg>
+                                        </span>
+                                        <input type="text" placeholder="Going To" class="input-2 text-3 w-100">
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-6 mt-24">
+                                    <div class="box-2 d-flex justify-content-between">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <span class="calendar">
+                                                <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M6.41667 9.45H4.27778V11.55H6.41667V9.45ZM10.6944 9.45H8.55556V11.55H10.6944V9.45ZM14.9722 9.45H12.8333V11.55H14.9722V9.45ZM17.1111 2.1H16.0417V0H13.9028V2.1H5.34722V0H3.20833V2.1H2.13889C1.57162 2.1 1.02759 2.32125 0.626466 2.71508C0.225346 3.1089 0 3.64305 0 4.2V18.9C0 19.457 0.225346 19.9911 0.626466 20.3849C1.02759 20.7787 1.57162 21 2.13889 21H17.1111C17.6784 21 18.2224 20.7787 18.6235 20.3849C19.0247 19.9911 19.25 19.457 19.25 18.9V4.2C19.25 3.64305 19.0247 3.1089 18.6235 2.71508C18.2224 2.32125 17.6784 2.1 17.1111 2.1ZM17.1111 18.9H2.13889V7.35H17.1111V18.9Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </span>
+                                            <div class="d-flex flex-column">
+                                                <p class="text-3 m-0 fs-10 lh-normal">Dates</p>
+                                                <p class="text-3 m-0 lh-normal">Jun 29</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="btn-s1 text-1 mt-4">Search</button>
+                        </div>
+                        <div class="Cruises flex-column align-items-center">
+                            <div class="row w-100">
+                                <div class="col-lg-3  mt-24">
+                                    <div class=" box-2 d-flex gap-2">
+                                        <span class="d-flex align-items-center">
+                                            <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M12 1.58984C9.81276 1.59242 7.71584 2.46245 6.16923 4.00906C4.62261 5.55568 3.75259 7.6526 3.75001 9.83984C3.74739 11.6273 4.33124 13.3662 5.41201 14.7898C5.41201 14.7898 5.63701 15.0861 5.67376 15.1288L12 22.5898L18.3293 15.1251C18.3623 15.0853 18.588 14.7898 18.588 14.7898L18.5888 14.7876C19.669 13.3646 20.2526 11.6264 20.25 9.83984C20.2474 7.6526 19.3774 5.55568 17.8308 4.00906C16.2842 2.46245 14.1873 1.59242 12 1.58984ZM12 12.8398C11.4067 12.8398 10.8266 12.6639 10.3333 12.3343C9.83995 12.0046 9.45543 11.5361 9.22837 10.9879C9.00131 10.4397 8.9419 9.83652 9.05765 9.25457C9.17341 8.67263 9.45913 8.13808 9.87869 7.71852C10.2982 7.29897 10.8328 7.01324 11.4147 6.89749C11.9967 6.78173 12.5999 6.84114 13.1481 7.0682C13.6962 7.29527 14.1648 7.67979 14.4944 8.17313C14.8241 8.66648 15 9.2465 15 9.83984C14.999 10.6352 14.6826 11.3977 14.1202 11.9601C13.5578 12.5225 12.7954 12.8389 12 12.8398Z"
+                                                    fill="#FAFAFA" />
+                                            </svg>
+                                        </span>
+                                        <input type="text" placeholder="Going To" class="input-2 text-3 w-100">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6 mt-24">
+                                    <div class="box-2 d-flex justify-content-between">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <span class="calendar">
+                                                <svg width="20" height="21" viewBox="0 0 20 21" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M6.41667 9.45H4.27778V11.55H6.41667V9.45ZM10.6944 9.45H8.55556V11.55H10.6944V9.45ZM14.9722 9.45H12.8333V11.55H14.9722V9.45ZM17.1111 2.1H16.0417V0H13.9028V2.1H5.34722V0H3.20833V2.1H2.13889C1.57162 2.1 1.02759 2.32125 0.626466 2.71508C0.225346 3.1089 0 3.64305 0 4.2V18.9C0 19.457 0.225346 19.9911 0.626466 20.3849C1.02759 20.7787 1.57162 21 2.13889 21H17.1111C17.6784 21 18.2224 20.7787 18.6235 20.3849C19.0247 19.9911 19.25 19.457 19.25 18.9V4.2C19.25 3.64305 19.0247 3.1089 18.6235 2.71508C18.2224 2.32125 17.6784 2.1 17.1111 2.1ZM17.1111 18.9H2.13889V7.35H17.1111V18.9Z"
+                                                        fill="white" />
+                                                </svg>
+                                            </span>
+                                            <div>
+                                                <p class="text-3 m-0 fs-10 lh-normal">Departing Between</p>
+                                                <p class="text-3 m-0 lh-normal">Jun 29 - 29 July</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex flex-column justify-content-center align-items-center">
+                                            <span class="d-flex cursor-pointer">
+                                                <svg width="15" height="12" viewBox="0 0 15 12" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M1.12524 11.4576H13.8752C14.0043 11.4572 14.1309 11.4216 14.2412 11.3546C14.3516 11.2877 14.4416 11.1919 14.5015 11.0776C14.5615 10.9632 14.5892 10.8347 14.5815 10.7059C14.5739 10.577 14.5313 10.4527 14.4582 10.3462L8.0832 1.13791C7.81899 0.756115 7.18291 0.756115 6.91799 1.13791L0.542994 10.3462C0.469203 10.4524 0.42593 10.5769 0.417877 10.7059C0.409824 10.835 0.437299 10.9638 0.497316 11.0784C0.557333 11.1929 0.647597 11.2889 0.758302 11.3557C0.869006 11.4226 0.995916 11.4578 1.12524 11.4576Z"
+                                                        fill="#F8F8F8" />
+                                                </svg>
+                                            </span>
+                                            <span class="d-flex cursor-pointer">
+                                                <svg width="17" height="17" viewBox="0 0 17 17" fill="none"
+                                                    xmlns="http://www.w3.org/2000/svg">
+                                                    <path
+                                                        d="M14.8748 3.54239H2.12475C1.99567 3.54279 1.86913 3.57839 1.75878 3.64536C1.64842 3.71233 1.55841 3.80813 1.49845 3.92244C1.43849 4.03676 1.41084 4.16527 1.41847 4.29413C1.42611 4.42299 1.46875 4.54733 1.5418 4.65376L7.9168 13.8621C8.18101 14.2439 8.81709 14.2439 9.08201 13.8621L15.457 4.65376C15.5308 4.54755 15.5741 4.42315 15.5821 4.29407C15.5902 4.165 15.5627 4.03618 15.5027 3.92162C15.4427 3.80706 15.3524 3.71114 15.2417 3.64428C15.131 3.57742 15.0041 3.54218 14.8748 3.54239ZM8.49976 12.2145L3.47626 4.95905H13.5233L8.49976 12.2145Z"
+                                                        fill="#F8F8F8" />
+                                                </svg>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6 mt-24">
+                                    <div class="box-2 d-flex justify-content-between">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <span class="calendar">
+                                                <img src="./assets/svg/clock.svg" alt="clock">
+                                            </span>
+                                            <div>
+                                                <p class="text-3 m-0 fs-10 lh-normal">Duration</p>
+                                                <p class="text-3 m-0 lh-normal">3 - 9 Nights</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3 col-6 mt-24">
+                                    <div class="box-2 d-flex justify-content-between">
+                                        <div class="d-flex align-items-center gap-2">
+                                            <span class="calendar">
+                                                <img src="./assets/svg/people.svg" alt="svg">
+                                            </span>
+                                            <div>
+                                                <p class="text-3 m-0 fs-10 lh-normal">travelers</p>
+                                                <p class="text-3 m-0 lh-normal">2 travelers</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="text-3 mt-3 text-start w-100 pl-12">
+                                For expert criise advice,call 1-800-916-8586
+                            </p>
+                            <button class="btn-s1 text-1 mt-4">Search</button>
                         </div>
                     </div>
                 </div>
+            </div>
+        </section>
+        <section class="section-2 position-relative py-5">
+            <div class="container">
+
             </div>
         </section>
     </main>

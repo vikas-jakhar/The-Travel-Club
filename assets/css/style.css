@@ -11,6 +11,7 @@
 
 :root {
     /* font-size */
+    --fs-10: 10px;
     --fs-14: 14px;
     --fs-16: 16px;
     --fs-28: 28px;
@@ -26,6 +27,7 @@
     --lh-35: 35px;
     --lh-75: 75px;
     --lh-75: 75px;
+    --lh-normal: normal;
 }
 
 .menu {
@@ -99,6 +101,7 @@
     max-width: 930px;
     border-radius: 16px;
     padding: 15px;
+    min-height: 300px;
 }
 
 .text-2 {
@@ -109,26 +112,21 @@
     color: var(--color-white);
 }
 
-.h-2::after {
+.h-21::after {
     content: '';
     position: absolute;
-    width: 0%;
+    width: 100%;
     height: 2px;
     background-color: var(--color-white);
-    left: 50%;
+    left: 0%;
     bottom: -5px;
-    transition: all 300ms ease-in-out;
-    transform: translate(-50%);
+    transition: all 400ms ease-in-out;
 }
 
 .h-2 {
     cursor: pointer;
 }
 
-.h-2:hover::after {
-    left: 50%;
-    width: 100%;
-}
 
 .select-1 {
     border: none;
@@ -138,7 +136,100 @@
 }
 
 .select-1 option {
+    background: #242450;
+}
+
+.text-3 {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-16);
+    font-weight: 300;
+    line-height: var(--lh-24);
+    color: var(--color-white);
+}
+
+.box-2 {
+    padding: 10px;
+    border: 1px solid #FFFFFF99;
+    background: #FFFFFF14;
+    border-radius: 8px;
+    height: 100%;
+}
+
+.input-2 {
     background: transparent;
+    border: none;
+    outline: none;
+}
+
+.input-2::placeholder {
+    font-family: "Poppins", sans-serif;
+    font-size: var(--fs-16);
+    font-weight: 300;
+    line-height: var(--lh-24);
+    color: var(--color-white);
+}
+
+.mt-24 {
+    margin-top: 24px;
+}
+
+.pl-12 {
+    padding-left: 12px;
+}
+
+.check-box {
+    width: 18px;
+    height: 18px;
+    border: 0.6px solid #FFFFFF;
+}
+
+.check-svg {
+    display: none;
+}
+
+.tick {
+    .check-svg {
+        display: flex;
+    }
+}
+
+.btn-s1 {
+    width: 122px;
+    height: 52px;
+    background: linear-gradient(90deg, #1219D2 0%, #4E52B1 100%);
+    border: 1px solid transparent;
+    border-radius: 60px;
+    transition: all 300ms linear;
+}
+
+.btn-s1:hover {
+    background: transparent;
+    box-shadow: 0 0 15px #1219D2;
+    border: 1px solid var(--color-white);
+}
+
+.btn-f12 {
+    width: 122px;
+    height: 52px;
+    border: none;
+    background: transparent;
+}
+
+.btn-f12:hover {
+    border-radius: 60px;
+    background-color: #242450;
+}
+
+.Stays {
+    display: flex;
+}
+
+.Flights12,
+.cars12,
+.packages,
+.things,
+.Cruises {
+    display: none;
 }
 
 
@@ -153,8 +244,9 @@
 
 
 
-
-
+.cursor-pointer {
+    cursor: pointer;
+}
 
 .fs-64 {
     font-size: var(--fs-xl);
@@ -166,4 +258,12 @@
 
 .fs-14 {
     font-size: var(--fs-14);
+}
+
+.fs-10 {
+    font-size: var(--fs-10);
+}
+
+.lh-normal {
+    line-height: var(--lh-normal);
 }
