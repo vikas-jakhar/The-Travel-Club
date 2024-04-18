@@ -1,3 +1,4 @@
+AOS.init();
 
 const tick = document.querySelectorAll(".flight");
 
@@ -82,4 +83,31 @@ six.addEventListener("click", function () {
     things.style.display = "none";
     packages.style.display = "none";
     Cruises.style.display = "flex";
+});
+
+$('.slider').slick({
+    dots: true,
+    infinite: true,
+    speed: 300,
+    autoplay: true,
+    arrows: false,
+    autoplaySpeed: 2000,
+    slidesToShow: 3,
+    slidesToScroll: 2,
+    responsive: [
+        {
+            breakpoint: 1024,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+            }
+        },
+        {
+            breakpoint: 600,
+            settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+            }
+        }
+    ]
 });

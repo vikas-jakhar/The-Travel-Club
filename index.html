@@ -5,8 +5,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Travel Club</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="./assets/svg/Frame3.svg">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
@@ -32,10 +40,11 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="overflow-hidden">
         <section class="section-1 min-vh-100 d-flex align-items-center">
             <div class="container w-100 mt-5 position-relative z-2">
-                <div class="d-flex flex-column align-items-center">
+                <div class="d-flex flex-column align-items-center" data-aos="fade-up"
+                    data-aos-anchor-placement="top-center">
                     <h2 class="text-1 fs-64 lh-75 text-capitalize">tokenized and decentralized</h2>
                     <h3 class="position-relative bottom-blue px-3">
                         <span class="text-1 fs-64 lh-75 position-relative z-1 text-capitalize">travel platform</span>
@@ -622,7 +631,8 @@
         <section class="section-2 position-relative py-5">
             <div class="container position-relative z-2">
                 <div class="row">
-                    <div class="col-lg-6 col-12 mt-24">
+                    <div class="col-lg-6 col-12 mt-24" data-aos="fade-up" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         <div class="d-flex flex-column justify-content-center w-100 h-100">
                             <h3 class="text-4 fs-48">About Us</h3>
                             <p class="text-4 opacity-75 mt-4">
@@ -638,7 +648,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-12 mt-24">
+                    <div class="col-lg-6 col-12 mt-24" data-aos="fadeup" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         <img src="./assets/image/img2.png" alt="img1" class="w-100">
                     </div>
                 </div>
@@ -648,11 +659,13 @@
         </section>
         <section class="section-3 position-relative py-5">
             <div class="container position-relative z-2">
-                <h2 class="text-4 fs-48 text-center">Popular Destinations</h2>
+                <h2 class="text-4 fs-48 text-center" data-aos="fade-up" data-aos-anchor-placement="top-center">Popular
+                    Destinations</h2>
                 <div class="row">
                     <div class="col-lg-4 col-12 mt-24">
                         <div class="row">
-                            <div class="col-12 col-md-6 col-lg-12 mt-lg-24">
+                            <div class="col-12 col-md-6 col-lg-12 mt-lg-24" data-aos="flip-left"
+                                data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                                 <div class="d-flex img-box overflow-hidden position-relative">
                                     <div class="blur-text position-absolute d-grid">
                                         <p class="opacity-75 text-2 m-0">Cir. Shiloh, Hawaii 81063</p>
@@ -660,7 +673,8 @@
                                     <img src="./assets/image/image27.png" alt="image27" class="w-100">
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-12 mt-lg-24">
+                            <div class="col-12 col-md-6 col-lg-12 mt-lg-24" data-aos="flip-left"
+                                data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                                 <div class="d-flex img-box overflow-hidden position-relative">
                                     <div class="blur-text position-absolute d-grid">
                                         <p class="opacity-75 text-2 m-0">beautiful-viewpoint,surat</p>
@@ -672,7 +686,8 @@
                     </div>
                     <div class="col-lg-4 col-12 mt-24">
                         <div class="row">
-                            <div class="col-12 col-md-6 col-lg-12 mt-lg-24">
+                            <div class="col-12 col-md-6 col-lg-12 mt-lg-24" data-aos="flip-left"
+                                data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                                 <div class="d-flex img-box overflow-hidden position-relative">
                                     <div class="blur-text position-absolute d-grid">
                                         <p class="opacity-75 text-2 m-0">wooden-bridge,Surat</p>
@@ -680,7 +695,8 @@
                                     <img src="./assets/image/wooden-bridge.png" alt="image27" class="w-100">
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-12 mt-lg-24">
+                            <div class="col-12 col-md-6 col-lg-12 mt-lg-24" data-aos="flip-left"
+                                data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                                 <div class="d-flex img-box overflow-hidden position-relative">
                                     <div class="blur-text position-absolute d-grid">
                                         <p class="opacity-75 text-2 m-0">taj-mahal-agra,india</p>
@@ -692,15 +708,18 @@
                     </div>
                     <div class="col-lg-4 col-12 mt-24">
                         <div class="row">
-                            <div class="col-12 col-md-6 col-lg-12 mt-lg-24">
+                            <div class="col-12 col-md-6 col-lg-12 mt-lg-24" data-aos="flip-left"
+                                data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                                 <div class="d-flex img-box overflow-hidden position-relative">
                                     <div class="blur-text position-absolute d-grid">
                                         <p class="opacity-75 text-2 m-0">inthanon-park-chiang</p>
                                     </div>
-                                    <img src="./assets/image/inthanon-national-park-chiang.png" alt="image27" class="w-100">
+                                    <img src="./assets/image/inthanon-national-park-chiang.png" alt="image27"
+                                        class="w-100">
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-12 mt-lg-24">
+                            <div class="col-12 col-md-6 col-lg-12 mt-lg-24" data-aos="flip-left"
+                                data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                                 <div class="d-flex img-box overflow-hidden position-relative">
                                     <div class="blur-text position-absolute d-grid">
                                         <p class="opacity-75 text-2 m-0">Cir. Shiloh, Hawaii 81063</p>
@@ -716,10 +735,171 @@
             <img src="./assets/image/Ellipse296.png" alt="star" class="position-absolute star end-0">
             <img src="./assets/image/Ellipse295.png" alt="star" class="position-absolute star top-50 start-0">
         </section>
+        <section class="section-4 position-relative py-5">
+            <div class="container position-relative z-2">
+                <h2 class="text-4 fs-48 text-center" data-aos="fade-up" data-aos-anchor-placement="top-center">Member
+                    Deals</h2>
+                <div class="mt-5" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                    <div class="slider">
+                        <div class="slider-box">
+                            <div class="overflow-hidden d-flex position-relative">
+                                <p class="text-2 position-absolute text-50 d-grid m-0">50% OFF</p>
+                                <img src="./assets/image/woman-taking.png" alt="woman" class="w-100">
+                            </div>
+                            <div class="p-2">
+                                <div class="d-flex justify-content-between align-items-center mt-3">
+                                    <div class="d-flex gap-2 align-items-center">
+                                        <p class="text-4 m-0 fs-24">$1,100</p>
+                                        <p class="text-4 m-0 fs-24 opacity-50 text-decoration-line-through">$1,999</p>
+                                    </div>
+                                    <div class="d-flex gap-2 align-items-center">
+                                        <span>
+                                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
+                                                    fill="#FFAA4A" />
+                                            </svg>
+                                        </span>
+                                        <p class="text-4 m-0 fs-20">4.9</p>
+                                    </div>
+                                </div>
+                                <p class="text-1 mt-3 text-start">
+                                    Et fringilla mauris hac dignissi amet facilisi.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="slider-box">
+                            <div class="overflow-hidden d-flex position-relative">
+                                <p class="text-2 position-absolute text-50 d-grid m-0">50% OFF</p>
+                                <img src="./assets/image/long-boat.png" alt="woman" class="w-100">
+                            </div>
+                            <div class="p-2 mt-3">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="d-flex gap-2 align-items-center">
+                                        <p class="text-4 m-0 fs-24">$1,100</p>
+                                        <p class="text-4 m-0 fs-24 opacity-50 text-decoration-line-through">$1,999</p>
+                                    </div>
+                                    <div class="d-flex gap-2 align-items-center">
+                                        <span>
+                                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
+                                                    fill="#FFAA4A" />
+                                            </svg>
+                                        </span>
+                                        <p class="text-4 m-0 fs-20">4.8</p>
+                                    </div>
+                                </div>
+                                <p class="text-1 mt-3 text-start">
+                                    Et fringilla mauris hac dignissi amet facilisi.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="slider-box">
+                            <div class="overflow-hidden d-flex position-relative">
+                                <p class="text-2 position-absolute text-50 d-grid m-0">50% OFF</p>
+                                <img src="./assets/image/young-female.png" alt="woman" class="w-100">
+                            </div>
+                            <div class="p-2 mt-3">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="d-flex gap-2 align-items-center">
+                                        <p class="text-4 m-0 fs-24">$1,100</p>
+                                        <p class="text-4 m-0 fs-24 opacity-50 text-decoration-line-through">$1,999</p>
+                                    </div>
+                                    <div class="d-flex gap-2 align-items-center">
+                                        <span>
+                                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
+                                                    fill="#FFAA4A" />
+                                            </svg>
+                                        </span>
+                                        <p class="text-4 m-0 fs-20">4.9</p>
+                                    </div>
+                                </div>
+                                <p class="text-1 mt-3 text-start">
+                                    Et fringilla mauris hac dignissi amet facilisi.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="slider-box">
+                            <div class="overflow-hidden d-flex position-relative">
+                                <p class="text-2 position-absolute text-50 d-grid m-0">50% OFF</p>
+                                <img src="./assets/image/long-boat.png" alt="woman" class="w-100">
+                            </div>
+                            <div class="p-2 mt-3">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="d-flex gap-2 align-items-center">
+                                        <p class="text-4 m-0 fs-24">$1,100</p>
+                                        <p class="text-4 m-0 fs-24 opacity-50 text-decoration-line-through">$1,999</p>
+                                    </div>
+                                    <div class="d-flex gap-2 align-items-center">
+                                        <span>
+                                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
+                                                    fill="#FFAA4A" />
+                                            </svg>
+                                        </span>
+                                        <p class="text-4 m-0 fs-20">4.8</p>
+                                    </div>
+                                </div>
+                                <p class="text-1 mt-3 text-start">
+                                    Et fringilla mauris hac dignissi amet facilisi.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="slider-box">
+                            <div class="overflow-hidden d-flex position-relative">
+                                <p class="text-2 position-absolute text-50 d-grid m-0">50% OFF</p>
+                                <img src="./assets/image/young-female.png" alt="woman" class="w-100">
+                            </div>
+                            <div class="p-2 mt-3">
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <div class="d-flex gap-2 align-items-center">
+                                        <p class="text-4 m-0 fs-24">$1,100</p>
+                                        <p class="text-4 m-0 fs-24 opacity-50 text-decoration-line-through">$1,999</p>
+                                    </div>
+                                    <div class="d-flex gap-2 align-items-center">
+                                        <span>
+                                            <svg width="22" height="20" viewBox="0 0 22 20" fill="none"
+                                                xmlns="http://www.w3.org/2000/svg">
+                                                <path
+                                                    d="M11 0L13.4697 7.60081H21.4616L14.996 12.2984L17.4656 19.8992L11 15.2016L4.53436 19.8992L7.00402 12.2984L0.538379 7.60081H8.53035L11 0Z"
+                                                    fill="#FFAA4A" />
+                                            </svg>
+                                        </span>
+                                        <p class="text-4 m-0 fs-20">4.9</p>
+                                    </div>
+                                </div>
+                                <p class="text-1 mt-3 text-start">
+                                    Et fringilla mauris hac dignissi amet facilisi.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/image/star.png" alt="star" class="position-absolute star end-0">
+            <img src="./assets/image/Ellipse295.png" alt="star" class="position-absolute star start-0 top-50">
+            <img src="./assets/image/Ellipse296.png" alt="star" class="position-absolute star end-0 top-50">
+        </section>
     </main>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+        integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./assets/js/app.js"></script>
 </body>
 

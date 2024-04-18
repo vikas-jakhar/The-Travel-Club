@@ -15,8 +15,8 @@
     --fs-14: 14px;
     --fs-16: 16px;
     --fs-28: 28px;
-    --fs-sm: ;
-    --fs-md: ;
+    --fs-sm: 20px;
+    --fs-md: 24px;
     --fs-lg: 48px;
     --fs-xl: 64px;
     /* color */
@@ -47,7 +47,7 @@
 
 .list-text {
     font-family: "Poppins", sans-serif;
-    font-size: var(--color-white);
+    font-size: var(--fs-16);
     font-weight: 500;
     line-height: var(--lh-24);
     color: var(--color-white);
@@ -57,7 +57,7 @@
 
 .text-1 {
     font-family: "Poppins", sans-serif;
-    font-size: var(--color-white);
+    font-size: var(--fs-sm);
     font-weight: 600;
     line-height: var(--lh-24);
     color: var(--color-white);
@@ -284,6 +284,91 @@
     height: 100%;
 }
 
+.text-50 {
+    background: #01010140;
+    width: 123px;
+    height: 44px;
+    border-radius: 42px;
+    backdrop-filter: blur(10px);
+    place-items: center;
+    transition: all 300ms ease-in-out;
+    top: 16px;
+    left: 16px;
+    z-index: -1;
+    opacity: 0%;
+}
+
+.slider-box {
+    border-radius: 13px;
+    transition: all 300ms ease-in-out;
+    overflow: hidden;
+    background: #1219D233;
+}
+
+.slider-box img {
+    transition: all 300ms ease-in-out;
+}
+
+.slider-box:hover img {
+    scale: 1.13;
+}
+
+.slider-box:hover .text-50 {
+    z-index: 1;
+    opacity: 100%;
+}
+
+.slider-box:hover {
+    box-shadow: 0 0 10px #171A4B;
+}
+
+.slick-track {
+    display: flex !important;
+}
+
+.slick-slide {
+    height: inherit !important;
+    display: flex !important;
+}
+
+.slick-slide>div {
+    display: flex;
+}
+
+.slick-slider {
+    margin: 0 -15px;
+}
+
+.slick-slide {
+    padding: 10px;
+    text-align: center;
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.slick-dots li,
+.slick-dots li button {
+    width: 28px;
+    height: 12px;
+    background: #FAFAFA;
+    border-radius: 21px;
+}
+
+.slick-dots li button:before {
+    content: '';
+}
+
+.slick-dots li.slick-active button:before,
+.slick-dots li.slick-active {
+    background: #1219D2;
+    opacity: 100%;
+    width: 59px;
+    height: 12px;
+    z-index: 2;
+    border-radius: 21px;
+}
 
 
 
@@ -322,6 +407,14 @@
 
 .lh-normal {
     line-height: var(--lh-normal);
+}
+
+.fs-24 {
+    font-size: var(--fs-md);
+}
+
+.fs-20 {
+    font-size: var(--fs-sm);
 }
 
 @media (min-width:992px) {
