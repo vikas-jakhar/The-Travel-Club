@@ -28,35 +28,40 @@
                         <img src="./assets/svg/Frame3.svg" alt="logo">
                         <h1 class="heading m-0">The Travel Club</h1>
                     </div>
-                    <ul class="m-0 d-flex align-items-center gap-4">
+                    <ul class="m-0 d-flex align-items-center gap-4 menu-list">
                         <li><a href="" class="list-text">home</a></li>
                         <li><a href="" class="list-text">token</a></li>
                         <li><a href="" class="list-text">FAQs</a></li>
                         <li><a href="" class="list-text">About</a></li>
                         <li><a href="" class="list-text">Contact us</a></li>
+                        <li><button class="connect-btn text-1 d-lg-none">Connect wallet</button></li>
                     </ul>
-                    <button class="connect-btn text-1">Connect wallet</button>
+                    <button class="connect-btn text-1 d-none d-lg-block">Connect wallet</button>
                 </nav>
             </div>
         </div>
     </header>
     <main class="overflow-hidden">
-        <section class="section-1 min-vh-100 d-flex align-items-center">
-            <div class="container w-100 mt-5 position-relative z-2">
+        <section class="section-1 min-vh-100 d-flex align-items-center py-5">
+            <div class="container w-100 mt-5 position-relative z-2 my-5">
                 <div class="d-flex flex-column align-items-center" data-aos="fade-up"
                     data-aos-anchor-placement="top-center">
-                    <h2 class="text-1 fs-64 lh-75 text-capitalize">tokenized and decentralized</h2>
-                    <h3 class="position-relative bottom-blue px-3">
-                        <span class="text-1 fs-64 lh-75 position-relative z-1 text-capitalize">travel platform</span>
-                    </h3>
+                    <h2 class="text-1 fs-64 lh-lg-75 lh-sm text-capitalize mt-3 max-w-960 text-center w-100">tokenized
+                        and
+                        decentralized
+                        <span class="position-relative z-1 text-capitalize bottom-blue">travel
+                            platform</span>
+                    </h2>
                     <div class="box-1 w-100 mt-5">
-                        <div class="d-flex gap-4 justify-content-center align-items-center">
-                            <p class="text-2 h-2 h-21 position-relative one">Stays</p>
-                            <p class="text-2 h-2 position-relative two">Flights</p>
-                            <p class="text-2 h-2 position-relative three">Cars</p>
-                            <p class="text-2 h-2 position-relative four">packages</p>
-                            <p class="text-2 h-2 position-relative five">things to do</p>
-                            <p class="text-2 h-2 position-relative six">Cruises</p>
+                        <div class="overflow1 py-3">
+                            <div class="d-flex gap-4 justify-content-center align-items-center w-527">
+                                <p class="text-2 h-2 h-21 position-relative one">Stays</p>
+                                <p class="text-2 h-2 position-relative two">Flights</p>
+                                <p class="text-2 h-2 position-relative three">Cars</p>
+                                <p class="text-2 h-2 position-relative four">packages</p>
+                                <p class="text-2 h-2 position-relative five">things to do</p>
+                                <p class="text-2 h-2 position-relative six">Cruises</p>
+                            </div>
                         </div>
                         <div class="Stays flex-column align-items-center">
                             <div class="d-flex justify-content-end align-items-center w-100">
@@ -81,7 +86,7 @@
                                         <input type="text" placeholder="Going to" class="input-2 text-3 w-100">
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-6 mt-24">
+                                <div class="col-lg-3 col-12 col-md-6 mt-24">
                                     <div class="box-2 d-flex justify-content-between">
                                         <div class="d-flex align-items-center gap-2">
                                             <span class="calendar">
@@ -117,7 +122,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-6 mt-24">
+                                <div class="col-lg-3 col-12 col-md-6 mt-24">
                                     <div class="box-2 d-flex justify-content-between">
                                         <div class="d-flex align-items-center gap-2">
                                             <span class="calendar">
@@ -154,7 +159,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="d-flex justify-content-start w-100 pl-12 mt-24">
+                            <div class="d-flex justify-content-start w-100 pl-12 mt-24 flex-wrap gap-4">
                                 <div class="flight d-flex align-items-center gap-2 cursor-pointer">
                                     <span class="check-box">
                                         <span class="justify-content-center align-items-center h-100 check-svg">
@@ -167,7 +172,7 @@
                                     </span>
                                     <p class="text-3 m-0 text-capitalize">Add a flight</p>
                                 </div>
-                                <div class="flight d-flex align-items-center gap-2 mx-4 cursor-pointer">
+                                <div class="flight d-flex align-items-center gap-2 cursor-pointer">
                                     <span class="check-box">
                                         <span class="justify-content-center align-items-center h-100 check-svg">
                                             <svg width="10" height="7" viewBox="0 0 10 7" fill="none"
@@ -180,11 +185,11 @@
                                     <p class="text-3 m-0 text-capitalize">Add a Car</p>
                                 </div>
                             </div>
-                            <button class="btn-s1 text-1">Search</button>
+                            <button class="btn-s1 text-1 mt-3">Search</button>
                         </div>
                         <div class="Flights12 flex-column align-items-center">
                             <div class="w-100 d-flex justify-content-between flex-wrap gap-3">
-                                <div class="d-flex gap-2">
+                                <div class="d-flex gap-2 flex-wrap">
                                     <button class="text-3 btn-f12">Roundtrip</button>
                                     <button class="text-3 btn-f12">One-Way</button>
                                     <button class="text-3 btn-f12">Multi-City</button>
@@ -197,7 +202,7 @@
                                 </button>
                             </div>
                             <div class="row w-100">
-                                <div class="col-lg-3  mt-24">
+                                <div class="col-lg-3 col-12  mt-24">
                                     <div class=" box-2 d-flex gap-2">
                                         <span class="d-flex align-items-center">
                                             <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
@@ -210,7 +215,7 @@
                                         <input type="text" placeholder="Leaving From" class="input-2 text-3 w-100">
                                     </div>
                                 </div>
-                                <div class="col-lg-3  mt-24">
+                                <div class="col-lg-3 col-12  mt-24">
                                     <div class=" box-2 d-flex gap-2">
                                         <span class="d-flex align-items-center">
                                             <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
@@ -223,7 +228,7 @@
                                         <input type="text" placeholder="Going to" class="input-2 text-3 w-100">
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-6 mt-24">
+                                <div class="col-lg-3 col-md-6 col-12 mt-24">
                                     <div class="box-2 d-flex justify-content-between">
                                         <div class="d-flex align-items-center gap-2">
                                             <span class="calendar">
@@ -259,7 +264,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-6 mt-24">
+                                <div class="col-lg-3 col-md-6 col-12 mt-24">
                                     <div class="box-2 d-flex justify-content-between">
                                         <div class="d-flex align-items-center gap-2">
                                             <span class="calendar">
@@ -300,7 +305,7 @@
                         </div>
                         <div class="cars12 flex-column align-items-center">
                             <div class="row w-100">
-                                <div class="col-lg-6 mt-24">
+                                <div class="col-lg-6 col-12 mt-24">
                                     <div class=" box-2 d-flex gap-2">
                                         <span class="d-flex align-items-center">
                                             <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
@@ -313,7 +318,7 @@
                                         <input type="text" placeholder="Pick-Up" class="input-2 text-3 w-100">
                                     </div>
                                 </div>
-                                <div class="col-lg-6  mt-24">
+                                <div class="col-lg-6 col-12  mt-24">
                                     <div class=" box-2 d-flex gap-2">
                                         <span class="d-flex align-items-center">
                                             <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
@@ -326,7 +331,7 @@
                                         <input type="text" placeholder="Same As Pick-Up" class="input-2 text-3 w-100">
                                     </div>
                                 </div>
-                                <div class="col-lg-6 col-6 mt-24">
+                                <div class="col-lg-6 col-12 mt-24">
                                     <div class="box-2 d-flex justify-content-between">
                                         <div class="d-flex align-items-center gap-2">
                                             <span class="calendar">
@@ -344,7 +349,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-6 mt-24">
+                                <div class="col-lg-3 col-12 col-md-6 mt-24">
                                     <div class="box-2 d-flex justify-content-between">
                                         <div class="d-flex align-items-center gap-2">
                                             <div class="d-flex flex-column">
@@ -354,7 +359,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-6 mt-24">
+                                <div class="col-lg-3 col-12 col-md-6 mt-24">
                                     <div class="box-2 d-flex justify-content-between">
                                         <div class="d-flex align-items-center gap-2">
                                             <div class="d-flex flex-column">
@@ -366,9 +371,9 @@
                                 </div>
                             </div>
                             <div class="w-100 d-flex justify-content-between flex-wrap gap-3">
-                                <div class="d-flex gap-2 w-50 mt-3">
-                                    <button class="text-3 btn-f12 w-100">Show AARP Rates</button>
-                                    <button class="text-3 btn-f12 w-100">Discount Code
+                                <div class="d-flex gap-2 w-50 mt-3 flex-wrap w-100">
+                                    <button class="text-3 btn-f12 w-153">Show AARP Rates</button>
+                                    <button class="text-3 btn-f12 w-153">Discount Code
                                         <svg width="10" height="6" viewBox="0 0 10 6" fill="none"
                                             xmlns="http://www.w3.org/2000/svg">
                                             <path d="M1 0.5L5 4.5L9 0.5" stroke="white" />
@@ -388,7 +393,7 @@
                                 </button>
                             </div>
                             <div class="row w-100">
-                                <div class="col-lg-3  mt-24">
+                                <div class="col-lg-3 col-12  mt-24">
                                     <div class=" box-2 d-flex gap-2">
                                         <span class="d-flex align-items-center">
                                             <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
@@ -401,7 +406,7 @@
                                         <input type="text" placeholder="Leaving From" class="input-2 text-3 w-100">
                                     </div>
                                 </div>
-                                <div class="col-lg-3  mt-24">
+                                <div class="col-lg-3 col-12  mt-24">
                                     <div class=" box-2 d-flex gap-2">
                                         <span class="d-flex align-items-center">
                                             <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
@@ -414,7 +419,7 @@
                                         <input type="text" placeholder="Going to" class="input-2 text-3 w-100">
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-6 mt-24">
+                                <div class="col-lg-3 col-md-6 col-12 mt-24">
                                     <div class="box-2 d-flex justify-content-between">
                                         <div class="d-flex align-items-center gap-2">
                                             <span class="calendar">
@@ -450,7 +455,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-6 mt-24">
+                                <div class="col-lg-3 col-md-6 col-12 mt-24">
                                     <div class="box-2 d-flex justify-content-between">
                                         <div class="d-flex align-items-center gap-2">
                                             <span class="calendar">
@@ -464,7 +469,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="d-flex justify-content-start w-100 pl-12 mt-24">
+                            <div class="d-flex justify-content-start w-100 pl-12 mt-24 flex-wrap gap-4">
                                 <div class="flight d-flex align-items-center gap-2 cursor-pointer">
                                     <span class="check-box">
                                         <span class="justify-content-center align-items-center h-100 check-svg">
@@ -477,7 +482,7 @@
                                     </span>
                                     <p class="text-3 m-0 text-capitalize">Add a flight</p>
                                 </div>
-                                <div class="flight d-flex align-items-center gap-2 mx-4 cursor-pointer">
+                                <div class="flight d-flex align-items-center gap-2 cursor-pointer">
                                     <span class="check-box">
                                         <span class="justify-content-center align-items-center h-100 check-svg">
                                             <svg width="10" height="7" viewBox="0 0 10 7" fill="none"
@@ -489,7 +494,7 @@
                                     </span>
                                     <p class="text-3 m-0 text-capitalize">Add a Car</p>
                                 </div>
-                                <div class="flight d-flex align-items-center gap-2 mx-4 cursor-pointer">
+                                <div class="flight d-flex align-items-center gap-2 cursor-pointer">
                                     <span class="check-box">
                                         <span class="justify-content-center align-items-center h-100 check-svg">
                                             <svg width="10" height="7" viewBox="0 0 10 7" fill="none"
@@ -506,7 +511,7 @@
                         </div>
                         <div class="things flex-column align-items-center">
                             <div class="row w-100">
-                                <div class="col-lg-6 mt-24">
+                                <div class="col-lg-6 col-12 mt-24">
                                     <div class=" box-2 d-flex gap-2">
                                         <span class="d-flex align-items-center">
                                             <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
@@ -519,7 +524,7 @@
                                         <input type="text" placeholder="Going To" class="input-2 text-3 w-100">
                                     </div>
                                 </div>
-                                <div class="col-lg-6 col-6 mt-24">
+                                <div class="col-lg-6 col-12 mt-24">
                                     <div class="box-2 d-flex justify-content-between">
                                         <div class="d-flex align-items-center gap-2">
                                             <span class="calendar">
@@ -542,7 +547,7 @@
                         </div>
                         <div class="Cruises flex-column align-items-center">
                             <div class="row w-100">
-                                <div class="col-lg-3  mt-24">
+                                <div class="col-lg-3 col-12 mt-24">
                                     <div class=" box-2 d-flex gap-2">
                                         <span class="d-flex align-items-center">
                                             <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
@@ -555,7 +560,7 @@
                                         <input type="text" placeholder="Going To" class="input-2 text-3 w-100">
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-6 mt-24">
+                                <div class="col-lg-3 col-12 mt-24">
                                     <div class="box-2 d-flex justify-content-between">
                                         <div class="d-flex align-items-center gap-2">
                                             <span class="calendar">
@@ -591,7 +596,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-6 mt-24">
+                                <div class="col-lg-3 col-12 col-md-6 mt-24">
                                     <div class="box-2 d-flex justify-content-between">
                                         <div class="d-flex align-items-center gap-2">
                                             <span class="calendar">
@@ -604,7 +609,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-3 col-6 mt-24">
+                                <div class="col-lg-3 col-12 col-md-6 mt-24">
                                     <div class="box-2 d-flex justify-content-between">
                                         <div class="d-flex align-items-center gap-2">
                                             <span class="calendar">
@@ -659,12 +664,13 @@
         </section>
         <section class="section-3 position-relative py-5">
             <div class="container position-relative z-2">
-                <h2 class="text-4 fs-48 text-center" data-aos="fade-up" data-aos-anchor-placement="top-center">Popular
+                <h2 class="text-4 fs-48 text-center lh-sm" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                    Popular
                     Destinations</h2>
                 <div class="row">
                     <div class="col-lg-4 col-12 mt-24">
                         <div class="row">
-                            <div class="col-12 col-md-6 col-lg-12 mt-lg-24" data-aos="flip-left"
+                            <div class="col-12 col-md-6 col-lg-12 img-31 mt-lg-24" data-aos="flip-left"
                                 data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                                 <div class="d-flex img-box overflow-hidden position-relative">
                                     <div class="blur-text position-absolute d-grid">
@@ -673,7 +679,7 @@
                                     <img src="./assets/image/image27.png" alt="image27" class="w-100">
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-12 mt-lg-24" data-aos="flip-left"
+                            <div class="col-12 col-md-6 col-lg-12 img-31 mt-lg-24" data-aos="flip-left"
                                 data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                                 <div class="d-flex img-box overflow-hidden position-relative">
                                     <div class="blur-text position-absolute d-grid">
@@ -695,7 +701,7 @@
                                     <img src="./assets/image/wooden-bridge.png" alt="image27" class="w-100">
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-12 mt-lg-24" data-aos="flip-left"
+                            <div class="col-12 col-md-6 col-lg-12 img-31 mt-lg-24" data-aos="flip-left"
                                 data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                                 <div class="d-flex img-box overflow-hidden position-relative">
                                     <div class="blur-text position-absolute d-grid">
@@ -708,7 +714,7 @@
                     </div>
                     <div class="col-lg-4 col-12 mt-24">
                         <div class="row">
-                            <div class="col-12 col-md-6 col-lg-12 mt-lg-24" data-aos="flip-left"
+                            <div class="col-12 col-md-6 col-lg-12  mt-lg-24" data-aos="flip-left"
                                 data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                                 <div class="d-flex img-box overflow-hidden position-relative">
                                     <div class="blur-text position-absolute d-grid">
@@ -718,7 +724,7 @@
                                         class="w-100">
                                 </div>
                             </div>
-                            <div class="col-12 col-md-6 col-lg-12 mt-lg-24" data-aos="flip-left"
+                            <div class="col-12 col-md-6 col-lg-12 img-31 mt-lg-24" data-aos="flip-left"
                                 data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                                 <div class="d-flex img-box overflow-hidden position-relative">
                                     <div class="blur-text position-absolute d-grid">
@@ -737,7 +743,8 @@
         </section>
         <section class="section-4 position-relative py-5">
             <div class="container position-relative z-2">
-                <h2 class="text-4 fs-48 text-center" data-aos="fade-up" data-aos-anchor-placement="top-center">Member
+                <h2 class="text-4 fs-48 text-center lh-sm" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                    Member
                     Deals</h2>
                 <div class="mt-5" data-aos="fade-up" data-aos-anchor-placement="top-center">
                     <div class="slider">
@@ -887,6 +894,211 @@
             <img src="./assets/image/star.png" alt="star" class="position-absolute star end-0">
             <img src="./assets/image/Ellipse295.png" alt="star" class="position-absolute star start-0 top-50">
             <img src="./assets/image/Ellipse296.png" alt="star" class="position-absolute star end-0 top-50">
+        </section>
+        <section class="section-5 position-relative py-5">
+            <div class="container my-3 position-relative z-2">
+                <h2 class="text-4 fs-48 text-center lh-sm" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                    Tokenomics: Powering Digital Economies</h2>
+                <div class="row mt-5">
+                    <div class="col-lg-6 col-12 mt-24 d-flex align-items-center justify-content-center"
+                        data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">
+                        <img src="./assets/image/ring2.png" alt="ring2" class="w-75 image-rotate">
+                    </div>
+                    <div class="col-lg-6 col-12 mt-24" data-aos="fade-left" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
+                        <div class="card2 d-flex flex-column align-items-center p-lg-5 py-4 p-2 h-100">
+                            <h4 class="fs-36 lh-sm text-4 text-center">Travel Club Metrics</h4>
+                            <div class="w-100">
+                                <div class="mt-4 max-w-330">
+                                    <div class="d-flex align-items-center justify-content-between">
+                                        <p class="text-4 opacity-75 fs-20">Max supply:</p>
+                                        <p class="fs-20 text-1">700 000 000</p>
+                                    </div>
+                                    <div class="d-flex align-items-center justify-content-between mt-3">
+                                        <p class="text-4 opacity-75 fs-20">Total supply:</p>
+                                        <p class="fs-20 text-1">345 620 131</p>
+                                    </div>
+                                    <div class="d-flex align-items-center justify-content-between mt-3">
+                                        <p class="text-4 opacity-75 fs-20">Circulating supply:</p>
+                                        <p class="fs-20 text-1">307 909 912</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mt-4 w-100 justify-content-start">
+                                <div class="box01 col-xl-5 col-12 d-flex justify-content-start mt-4">
+                                    <div class="d-flex flex-column">
+                                        <p class="text-4 opacity-75 m-0">Farms/Launchpools</p>
+                                        <p class="lh-sm text-4 m-0 fs-36">80.7%</p>
+                                    </div>
+                                </div>
+                                <div class="box01 border1 col-xl-5 col-sm-6 col-12 d-flex justify-content-start mt-4">
+                                    <div class="d-flex flex-column">
+                                        <p class="text-4 opacity-75 m-0">Referral Program</p>
+                                        <p class="lh-sm text-4 m-0 fs-36">4.3%</p>
+                                    </div>
+                                </div>
+                                <div class="box01 border2 col-xl-2 col-sm-6 col-12 d-flex justify-content-start mt-4">
+                                    <div class="d-flex flex-column">
+                                        <p class="text-4 opacity-75 m-0">Team</p>
+                                        <p class="lh-sm text-4 m-0 fs-36">9%</p>
+                                    </div>
+                                </div>
+                                <div class="box01 border3 d-flex col-xl-5 col-sm-6 col-12 justify-content-start mt-4">
+                                    <div class="d-flex flex-column">
+                                        <p class="text-4 opacity-75 m-0">SAFU</p>
+                                        <p class="lh-sm text-4 m-0 fs-36">1%</p>
+                                    </div>
+                                </div>
+                                <div class="box01 border4 d-flex col-xl-5 col-sm-6 col-12 justify-content-start mt-4">
+                                    <div class="d-flex flex-column">
+                                        <p class="text-4 opacity-75 m-0">Investing Fund</p>
+                                        <p class="lh-sm text-4 m-0 fs-36">5%</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/image/Frame238381.png" alt="" class="position-absolute top-0 start-0 w-100 h-100">
+            <img src="./assets/image/star.png" alt="star" class="position-absolute star end-0">
+        </section>
+        <section class="section-6 position-relative py-5">
+            <div class="container position-relative z-2">
+                <h2 class="text-4 fs-48 text-center lh-sm" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                    Meet Our Team</h2>
+                <div class="mt-5" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                    <div class="mt-3">
+                        <div class="slider">
+                            <div class="slider-box">
+                                <div class="overflow-hidden d-flex position-relative">
+                                    <img src="./assets/image/darlene.png" alt="woman" class="w-100">
+                                </div>
+                                <div class="p-2 px-3">
+                                    <p class="text-4 fs-24 text-start mt-3 mb-1">Darlene Robertson</p>
+                                    <p class="text-4 opacity-75 text-start">CEO & Founder</p>
+                                </div>
+                            </div>
+                            <div class="slider-box">
+                                <div class="overflow-hidden d-flex position-relative">
+                                    <img src="./assets/image/cameron.png" alt="woman" class="w-100">
+                                </div>
+                                <div class="p-2 px-3">
+                                    <p class="text-4 fs-24 text-start mt-3 mb-1">Cameron Williamson</p>
+                                    <p class="text-4 opacity-75 text-start">CEO & Founder</p>
+                                </div>
+                            </div>
+                            <div class="slider-box">
+                                <div class="overflow-hidden d-flex position-relative">
+                                    <img src="./assets/image/brooklyn.png" alt="woman" class="w-100">
+                                </div>
+                                <div class="p-2 px-3">
+                                    <p class="text-4 fs-24 text-start mt-3 mb-1">Brooklyn Simmons</p>
+                                    <p class="text-4 opacity-75 text-start">CEO & Founder</p>
+                                </div>
+                            </div>
+                            <div class="slider-box">
+                                <div class="overflow-hidden d-flex position-relative">
+                                    <img src="./assets/image/cameron.png" alt="woman" class="w-100">
+                                </div>
+                                <div class="p-2 px-3">
+                                    <p class="text-4 fs-24 text-start mt-3 mb-1">Cameron Williamson</p>
+                                    <p class="text-4 opacity-75 text-start">CEO & Founder</p>
+                                </div>
+                            </div>
+                            <div class="slider-box">
+                                <div class="overflow-hidden d-flex position-relative">
+                                    <img src="./assets/image/darlene.png" alt="woman" class="w-100">
+                                </div>
+                                <div class="p-2 px-3">
+                                    <p class="text-4 fs-24 text-start mt-3 mb-1">Darlene Robertson</p>
+                                    <p class="text-4 opacity-75 text-start">CEO & Founder</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/image/star.png" alt="star" class="position-absolute star start-0 bottom-0 top-auto">
+            <img src="./assets/image/Ellipse296.png" alt="star" class="position-absolute star end-0">
+        </section>
+        <section class="section-7 position-relative py-5">
+            <div class="container position-relative z-2">
+                <h2 class="text-4 fs-48 text-center lh-sm" data-aos="fade-up" data-aos-anchor-placement="top-center">
+                    Frequently Asked Questions
+                </h2>
+                <div class="mt-5 py-4 d-flex flex-column align-items-center">
+                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed text-4 fs-14 fs-sm-20" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                    aria-controls="flush-collapseOne">
+                                    Q1. Rhoncus morbi sodales risus eget integer malesuada ultricies. Magnis at ornare
+                                    sit netus velit.
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body text-4 opacity-75 fs-12 lh-sm lh-sm-24 fs-sm-16">At congue consectetur
+                                    pharetra morbi. Amet blandit
+                                    vestibulum feugiat tempus urna laoreet mattis risus tempus. Imperdiet
+                                    a integer viverra rhoncus viverra nunc.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed text-4 fs-14 fs-sm-20" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                    aria-controls="flush-collapseTwo">
+                                    Q2. Habitant elementum nibh vitae adipiscing volutpat a scelerisque neque.
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">At congue consectetur pharetra morbi. Amet blandit
+                                    vestibulum feugiat tempus urna laoreet mattis risus tempus. Imperdiet
+                                    a integer viverra rhoncus viverra nunc.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed text-4 fs-14 fs-sm-20" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                    aria-controls="flush-collapseThree">
+                                    Q3. Condimentum cursus urna nulla et eget enim.
+                                </button>
+                            </h2>
+                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">At congue consectetur pharetra morbi. Amet blandit
+                                    vestibulum feugiat tempus urna laoreet mattis risus tempus. Imperdiet
+                                    a integer viverra rhoncus viverra nunc.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed text-4 fs-14 fs-sm-20" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#flush-collapseFour" aria-expanded="false"
+                                    aria-controls="flush-collapseFour">
+                                    Q3. Condimentum cursus urna nulla et eget enim.
+                                </button>
+                            </h2>
+                            <div id="flush-collapseFour" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">At congue consectetur pharetra morbi. Amet blandit
+                                    vestibulum feugiat tempus urna laoreet mattis risus tempus. Imperdiet
+                                    a integer viverra rhoncus viverra nunc.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="./assets/image/Ellipse295.png" alt="star" class="position-absolute star start-0">
         </section>
     </main>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
