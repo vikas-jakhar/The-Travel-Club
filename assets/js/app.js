@@ -111,3 +111,11 @@ $('.slider').slick({
         }
     ]
 });
+
+const menulist = document.querySelector(".menu-list");
+const menuicon = document.querySelector(".menu-icon");
+
+menuicon.addEventListener("click", function () {
+    menulist.classList.toggle("showlist");
+    menuicon.classList.toggle("open");
+});
