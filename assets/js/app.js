@@ -119,3 +119,19 @@ menuicon.addEventListener("click", function () {
     menulist.classList.toggle("showlist");
     menuicon.classList.toggle("open");
 });
+
+let loader = document.querySelector(".preloder");
+
+loader.style.display = "flex"
+
+setTimeout(() => {
+    loader.style.display = "none";
+}, 1000);
+
+const scrolltop1 = document.querySelector(".scrolltop");
+
+scrolltop1.addEventListener("click", function () {
+    window.scroll({
+        top: 0,
+    })
+});
