@@ -485,17 +485,17 @@
     transition: all 300ms ease-in-out;
 }
 
-.footer-text {
+.footer-text,.list-text {
     transition: all 300ms linear;
     position: relative;
     width: fit-content;
 }
 
-.footer-text:hover {
+.footer-text:hover,.list-text:hover {
     text-shadow: 2px 2px 2px #1219D2;
 }
 
-.footer-text::after {
+.footer-text::after,.list-text::after {
     content: '';
     position: absolute;
     width: 0%;
@@ -507,7 +507,7 @@
     transition: all 300ms linear;
 }
 
-.footer-text:hover::after {
+.footer-text:hover::after,.list-text:hover::after {
     width: 100%;
     left: 0%;
     right: auto;
