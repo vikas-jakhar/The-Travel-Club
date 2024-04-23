@@ -453,6 +453,15 @@
 
 .accordion-button::after {
     content: url(../image/svg/down.svg);
+    background-image: none;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: none;
+}
+
+.top-20{
+    top: 20%;
 }
 
 .image-rotate {
