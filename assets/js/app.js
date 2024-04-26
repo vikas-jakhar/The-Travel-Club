@@ -1,4 +1,4 @@
-AOS.init();
+AOS.init({ once: true });
 
 const tick = document.querySelectorAll(".flight");
 
@@ -93,7 +93,7 @@ $('.slider').slick({
     arrows: false,
     autoplaySpeed: 2000,
     slidesToShow: 3,
-    slidesToScroll: 2,
+    slidesToScroll: 3,
     responsive: [
         {
             breakpoint: 1024,

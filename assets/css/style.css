@@ -29,7 +29,6 @@
     --lh-35: 35px;
     --lh-75: 75px;
     --lh-75: 75px;
-    --lh-normal: normal;
 }
 
 .menu {
@@ -216,10 +215,8 @@
     display: none;
 }
 
-.tick {
-    .check-svg {
-        display: flex;
-    }
+.tick .check-svg {
+    display: flex;
 }
 
 .btn-s1 {
@@ -286,7 +283,11 @@
 }
 
 .img-box:hover img {
-    scale: 1.15;
+    scale: 1.1;
+}
+
+.w-fit {
+    width: fit-content;
 }
 
 .blur-text {
@@ -338,7 +339,7 @@
 }
 
 .slider-box:hover img {
-    scale: 1.13;
+    scale: 1.1;
 }
 
 .slider-box:hover .text-50 {
@@ -435,14 +436,26 @@
 }
 
 .accordion-item {
-    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background: transparent;
     max-width: 749px;
     width: 100%;
 }
 
+.max-w-564 {
+    max-width: 564px;
+}
+
+.accordion-body{
+    padding-left: 0;
+    padding-right: 0;
+}
+
 .accordion-button {
     background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 .accordion-button:not(.collapsed) {
@@ -460,7 +473,7 @@
     background-image: none;
 }
 
-.top-20{
+.top-20 {
     top: 20%;
 }
 
@@ -470,7 +483,7 @@
 }
 
 @keyframes rotate {
-    form {
+    from {
         transform: rotate(-360deg);
     }
 
@@ -646,7 +659,7 @@
 }
 
 .lh-normal {
-    line-height: var(--lh-normal);
+    line-height: normal;
 }
 
 .fs-24 {
@@ -728,5 +741,9 @@
 
     .menu-icon {
         display: none;
+    }
+
+    .pr-lg-145 {
+        padding-right: 145px;
     }
 }
